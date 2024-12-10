@@ -42,11 +42,42 @@ header p {
     color: #f5f5f5;
 }
 
+
+#about {
+    background-color: #121212;
+    padding: 3rem 0;
+}
+
+#about h2, #skills h2, #projects h2 {
+    color: #e1bee7;
+}
+
+#about p, #skills ul {
+    color: #dcdcdc;
+}
+
+#skills ul {
+    padding: 0;
+    list-style: none;
+}
+
+#skills li {
+    color: #dcdcdc;
+    font-size: 1.1rem;
+}
+
+
+#projects {
+    background-color: #121212;
+    padding: 3rem 0;
+}
+
 .card {
     background-color: #2e2e3e;
     border: none;
-    color: #f5f5f5;
     margin-bottom: 2rem;
+    color: #f5f5f5;
+    border-radius: 8px;
 }
 
 .card-header {
@@ -54,15 +85,18 @@ header p {
     color: #e1bee7;
     font-size: 1.25rem;
     padding: 1rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .card-body {
     padding: 1.5rem;
+    color: #dcdcdc;
 }
 
 .card-body p {
     font-size: 1rem;
-    color: #dcdcdc;
+    margin-bottom: 1.5rem;
 }
 
 .card .btn-primary {
@@ -74,6 +108,12 @@ header p {
 .card .btn-primary:hover {
     background-color: #483d8b;
     border-color: #483d8b;
+}
+
+
+#contact {
+    background-color: #121212;
+    padding: 3rem 0;
 }
 
 footer {
@@ -90,4 +130,3 @@ footer a {
 footer a:hover {
     color: #ffffff;
 }
-
